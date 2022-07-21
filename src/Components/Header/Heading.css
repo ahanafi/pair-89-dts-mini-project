@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.MainHeading {
+  z-index: 100 !important;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-family: 'Quicksand';
+}
+
+.MainHeading h1 {
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+@media (max-width: 768px) {
+  .MainHeading {
+    z-index: 100 !important;
+    color: #fff;
+  }
+}
